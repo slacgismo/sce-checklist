@@ -1,0 +1,19 @@
+class forecast
+{
+	double temperature[degF];
+	double wind_speed[m/s];
+	double wind_dir[deg];
+}
+module tape;
+#define NOAA_FORECAST_TIMEZONE=${SHELL gridlabd timezone local}
+#define NOAA_FORECAST_STARTTIME=2022-04-14T14:00:00-07:00
+#define NOAA_FORECAST_STOPTIME=2022-04-27T12:00:00-07:00
+object forecast
+{
+	name "forecast";
+	object player
+	{
+		file "forecast.csv";
+		property "temperature,wind_speed,wind_dir";
+	};
+}

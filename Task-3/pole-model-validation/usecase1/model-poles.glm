@@ -1,0 +1,3078 @@
+// automatically generated model from command `/usr/local/opt/gridlabd/4.3.1-221020-develop_add_gridlabd_cyme_converter/share/gridlabd/create_poles.py model.glm --output=model-poles.glm --spacing=100 --pole_type=WOOD-EC-45/4 --include_network --weather=forecast` on 2022-10-20 05:04:22 
+#include "model.glm"
+#include "forecast.glm"
+#include "/usr/local/opt/gridlabd/4.3.1-221020-develop_add_gridlabd_cyme_converter/share/gridlabd/library/US/CA/SLAC/pole_configuration.glm"
+object pole
+{
+    name "pole_ND_OL_Wire#1_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#1_pole_267462S";
+        equipment "TF_Equip#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_312148E_ND_OL_Wire#1_pole_312148E";
+        equipment "OL_Wire#1_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#1_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#2_pole_267462S";
+        equipment "TF_Equip#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#2_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#1_pole_306771E";
+        equipment "TF_Equip#1_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#1_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#2_pole_306771E";
+        equipment "TF_Equip#2_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#2_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#3_pole_306771E";
+        equipment "TF_Equip#3_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#3_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#1_pole_311032S";
+        equipment "TF_Equip#1_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#1_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#2_pole_311032S";
+        equipment "TF_Equip#2_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_TF_Equip#2_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_TF_Equip#1_pole_312148E";
+        equipment "TF_Equip#1_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_test_xls-spida2csv-geodata";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_267462S_ND_test_xls-spida2csv-geodata";
+        equipment "OL_Wire#6_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_267462S_100";
+        equipment "OL_Wire#6_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_267462S_200";
+        equipment "OL_Wire#6_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#6_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_267462S_ND_OL_Wire#6_pole_267462S";
+        equipment "OL_Wire#6_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_267462S_ND_OL_Wire#6_pole_267462S";
+        equipment "OL_Wire#5_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_267462S_100";
+        equipment "OL_Wire#5_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_267462S_200";
+        equipment "OL_Wire#5_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#5_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_267462S_ND_OL_Wire#5_pole_267462S";
+        equipment "OL_Wire#5_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_267462S_ND_OL_Wire#5_pole_267462S";
+        equipment "OL_Wire#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_267462S_100";
+        equipment "OL_Wire#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_267462S_200";
+        equipment "OL_Wire#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_267462S_300";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_267462S_300";
+        equipment "OL_Wire#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#2_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_267462S_ND_OL_Wire#2_pole_267462S";
+        equipment "OL_Wire#2_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_267462S_ND_OL_Wire#2_pole_267462S";
+        equipment "OL_Wire#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_267462S_100";
+        equipment "OL_Wire#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_267462S_200";
+        equipment "OL_Wire#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_267462S_300";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_267462S_300";
+        equipment "OL_Wire#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#1_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_267462S_ND_OL_Wire#1_pole_267462S";
+        equipment "OL_Wire#1_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_267462S_ND_OL_Wire#1_pole_267462S";
+        equipment "OL_Wire#9_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#9_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_267462S_100";
+        equipment "OL_Wire#9_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#9_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_267462S_ND_OL_Wire#9_pole_267462S";
+        equipment "OL_Wire#9_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_267462S_ND_OL_Wire#9_pole_267462S";
+        equipment "OL_Wire#11_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#11_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_267462S_ND_OL_Wire#11_pole_267462S";
+        equipment "OL_Wire#11_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_267462S_ND_OL_Wire#11_pole_267462S";
+        equipment "OL_Wire#7_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#7_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_267462S_100";
+        equipment "OL_Wire#7_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#7_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_267462S_200";
+        equipment "OL_Wire#7_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#7_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_267462S_ND_OL_Wire#7_pole_267462S";
+        equipment "OL_Wire#7_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_267462S_ND_OL_Wire#7_pole_267462S";
+        equipment "OL_Wire#3_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_267462S_100";
+        equipment "OL_Wire#3_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_267462S_200";
+        equipment "OL_Wire#3_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_267462S_300";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_267462S_300";
+        equipment "OL_Wire#3_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#3_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_267462S_ND_OL_Wire#3_pole_267462S";
+        equipment "OL_Wire#3_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_267462S_ND_OL_Wire#3_pole_267462S";
+        equipment "OL_Wire#10_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#10_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_267462S_100";
+        equipment "OL_Wire#10_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#10_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_267462S_ND_OL_Wire#10_pole_267462S";
+        equipment "OL_Wire#10_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_267462S_ND_OL_Wire#10_pole_267462S";
+        equipment "OL_Wire#8_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#8_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_267462S_100";
+        equipment "OL_Wire#8_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#8_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_267462S_200";
+        equipment "OL_Wire#8_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#8_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_267462S_ND_OL_Wire#8_pole_267462S";
+        equipment "OL_Wire#8_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_267462S_ND_OL_Wire#8_pole_267462S";
+        equipment "OL_Wire#4_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_267462S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_267462S_100";
+        equipment "OL_Wire#4_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_267462S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_267462S_200";
+        equipment "OL_Wire#4_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_267462S_300";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_267462S_300";
+        equipment "OL_Wire#4_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#4_pole_267462S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_267462S_ND_OL_Wire#4_pole_267462S";
+        equipment "OL_Wire#4_pole_267462S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_280565E_ND_OL_Wire#4_pole_267462S";
+        equipment "OL_Wire#7_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#7_pole_280565E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_280565E_100";
+        equipment "OL_Wire#7_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#7_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_280565E_ND_OL_Wire#7_pole_280565E";
+        equipment "OL_Wire#7_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_280565E_ND_OL_Wire#7_pole_280565E";
+        equipment "OL_Wire#6_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_280565E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_280565E_100";
+        equipment "OL_Wire#6_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#6_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_280565E_ND_OL_Wire#6_pole_280565E";
+        equipment "OL_Wire#6_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_280565E_ND_OL_Wire#6_pole_280565E";
+        equipment "OL_Wire#5_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_280565E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_280565E_100";
+        equipment "OL_Wire#5_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#5_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_280565E_ND_OL_Wire#5_pole_280565E";
+        equipment "OL_Wire#5_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_280565E_ND_OL_Wire#5_pole_280565E";
+        equipment "OL_Wire#3_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#3_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_280565E_ND_OL_Wire#3_pole_280565E";
+        equipment "OL_Wire#3_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_280565E_ND_OL_Wire#3_pole_280565E";
+        equipment "OL_Wire#2_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#2_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_280565E_ND_OL_Wire#2_pole_280565E";
+        equipment "OL_Wire#2_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_280565E_ND_OL_Wire#2_pole_280565E";
+        equipment "OL_Wire#1_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#1_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_280565E_ND_OL_Wire#1_pole_280565E";
+        equipment "OL_Wire#1_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_280565E_ND_OL_Wire#1_pole_280565E";
+        equipment "OL_Wire#9_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#9_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_280565E_ND_OL_Wire#9_pole_280565E";
+        equipment "OL_Wire#9_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_280565E_ND_OL_Wire#9_pole_280565E";
+        equipment "OL_Wire#8_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#8_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_280565E_ND_OL_Wire#8_pole_280565E";
+        equipment "OL_Wire#8_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_280565E_ND_OL_Wire#8_pole_280565E";
+        equipment "OL_Wire#4_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#4_pole_280565E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_280565E_ND_OL_Wire#4_pole_280565E";
+        equipment "OL_Wire#4_pole_280565E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_306771E_ND_OL_Wire#4_pole_280565E";
+        equipment "OL_Wire#6_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_306771E_100";
+        equipment "OL_Wire#6_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#6_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_306771E_ND_OL_Wire#6_pole_306771E";
+        equipment "OL_Wire#6_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_306771E_ND_OL_Wire#6_pole_306771E";
+        equipment "OL_Wire#5_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_306771E_100";
+        equipment "OL_Wire#5_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#5_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_306771E_ND_OL_Wire#5_pole_306771E";
+        equipment "OL_Wire#5_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_306771E_ND_OL_Wire#5_pole_306771E";
+        equipment "OL_Wire#2_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_306771E_100";
+        equipment "OL_Wire#2_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#2_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_306771E_ND_OL_Wire#2_pole_306771E";
+        equipment "OL_Wire#2_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_306771E_ND_OL_Wire#2_pole_306771E";
+        equipment "OL_Wire#1_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_306771E_100";
+        equipment "OL_Wire#1_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#1_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_306771E_ND_OL_Wire#1_pole_306771E";
+        equipment "OL_Wire#1_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_306771E_ND_OL_Wire#1_pole_306771E";
+        equipment "OL_Wire#11_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#11_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_306771E_ND_OL_Wire#11_pole_306771E";
+        equipment "OL_Wire#11_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_306771E_ND_OL_Wire#11_pole_306771E";
+        equipment "OL_Wire#10_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#10_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_306771E_ND_OL_Wire#10_pole_306771E";
+        equipment "OL_Wire#10_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_306771E_ND_OL_Wire#10_pole_306771E";
+        equipment "OL_Wire#9_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#9_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_306771E_ND_OL_Wire#9_pole_306771E";
+        equipment "OL_Wire#9_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#14_pole_306771E_ND_OL_Wire#9_pole_306771E";
+        equipment "OL_Wire#14_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#14_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#14_pole_306771E_ND_OL_Wire#14_pole_306771E";
+        equipment "OL_Wire#14_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_306771E_ND_OL_Wire#14_pole_306771E";
+        equipment "OL_Wire#12_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#12_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_306771E_ND_OL_Wire#12_pole_306771E";
+        equipment "OL_Wire#12_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_306771E_ND_OL_Wire#12_pole_306771E";
+        equipment "OL_Wire#7_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#7_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_306771E_100";
+        equipment "OL_Wire#7_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#7_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_306771E_ND_OL_Wire#7_pole_306771E";
+        equipment "OL_Wire#7_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_306771E_ND_OL_Wire#7_pole_306771E";
+        equipment "OL_Wire#3_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_306771E_100";
+        equipment "OL_Wire#3_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#3_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_306771E_ND_OL_Wire#3_pole_306771E";
+        equipment "OL_Wire#3_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#15_pole_306771E_ND_OL_Wire#3_pole_306771E";
+        equipment "OL_Wire#15_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#15_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#15_pole_306771E_ND_OL_Wire#15_pole_306771E";
+        equipment "OL_Wire#15_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#13_pole_306771E_ND_OL_Wire#15_pole_306771E";
+        equipment "OL_Wire#13_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#13_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#13_pole_306771E_ND_OL_Wire#13_pole_306771E";
+        equipment "OL_Wire#13_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_306771E_ND_OL_Wire#13_pole_306771E";
+        equipment "OL_Wire#8_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#8_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_306771E_100";
+        equipment "OL_Wire#8_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#8_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_306771E_ND_OL_Wire#8_pole_306771E";
+        equipment "OL_Wire#8_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_306771E_ND_OL_Wire#8_pole_306771E";
+        equipment "OL_Wire#4_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_306771E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_306771E_100";
+        equipment "OL_Wire#4_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#4_pole_306771E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_306771E_ND_OL_Wire#4_pole_306771E";
+        equipment "OL_Wire#4_pole_306771E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_311032S_ND_OL_Wire#4_pole_306771E";
+        equipment "OL_Wire#6_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_311032S_100";
+        equipment "OL_Wire#6_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#6_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_311032S_ND_OL_Wire#6_pole_311032S";
+        equipment "OL_Wire#6_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_311032S_ND_OL_Wire#6_pole_311032S";
+        equipment "OL_Wire#3_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_311032S_100";
+        equipment "OL_Wire#3_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#3_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_311032S_ND_OL_Wire#3_pole_311032S";
+        equipment "OL_Wire#3_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_311032S_ND_OL_Wire#3_pole_311032S";
+        equipment "OL_Wire#11_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#11_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_311032S_100";
+        equipment "OL_Wire#11_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#11_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#11_pole_311032S_ND_OL_Wire#11_pole_311032S";
+        equipment "OL_Wire#11_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_311032S_ND_OL_Wire#11_pole_311032S";
+        equipment "OL_Wire#4_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_311032S_100";
+        equipment "OL_Wire#4_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_311032S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_311032S_200";
+        equipment "OL_Wire#4_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#4_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_311032S_ND_OL_Wire#4_pole_311032S";
+        equipment "OL_Wire#4_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_311032S_ND_OL_Wire#4_pole_311032S";
+        equipment "OL_Wire#2_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_311032S_100";
+        equipment "OL_Wire#2_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#2_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_311032S_ND_OL_Wire#2_pole_311032S";
+        equipment "OL_Wire#2_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_311032S_ND_OL_Wire#2_pole_311032S";
+        equipment "OL_Wire#10_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#10_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_311032S_100";
+        equipment "OL_Wire#10_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#10_pole_311032S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_311032S_200";
+        equipment "OL_Wire#10_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#10_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#10_pole_311032S_ND_OL_Wire#10_pole_311032S";
+        equipment "OL_Wire#10_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_311032S_ND_OL_Wire#10_pole_311032S";
+        equipment "OL_Wire#5_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_311032S_100";
+        equipment "OL_Wire#5_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#5_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_311032S_ND_OL_Wire#5_pole_311032S";
+        equipment "OL_Wire#5_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_311032S_ND_OL_Wire#5_pole_311032S";
+        equipment "OL_Wire#9_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#9_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_311032S_100";
+        equipment "OL_Wire#9_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#9_pole_311032S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_311032S_200";
+        equipment "OL_Wire#9_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#9_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#9_pole_311032S_ND_OL_Wire#9_pole_311032S";
+        equipment "OL_Wire#9_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_311032S_ND_OL_Wire#9_pole_311032S";
+        equipment "OL_Wire#8_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#8_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_311032S_100";
+        equipment "OL_Wire#8_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#8_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#8_pole_311032S_ND_OL_Wire#8_pole_311032S";
+        equipment "OL_Wire#8_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_311032S_ND_OL_Wire#8_pole_311032S";
+        equipment "OL_Wire#7_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#7_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_311032S_100";
+        equipment "OL_Wire#7_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#7_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#7_pole_311032S_ND_OL_Wire#7_pole_311032S";
+        equipment "OL_Wire#7_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_311032S_ND_OL_Wire#7_pole_311032S";
+        equipment "OL_Wire#1_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_311032S_100";
+        equipment "OL_Wire#1_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#1_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_311032S_ND_OL_Wire#1_pole_311032S";
+        equipment "OL_Wire#1_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#13_pole_311032S_ND_OL_Wire#1_pole_311032S";
+        equipment "OL_Wire#13_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#13_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#13_pole_311032S_100";
+        equipment "OL_Wire#13_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#13_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#13_pole_311032S_ND_OL_Wire#13_pole_311032S";
+        equipment "OL_Wire#13_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_311032S_ND_OL_Wire#13_pole_311032S";
+        equipment "OL_Wire#12_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#12_pole_311032S_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_311032S_100";
+        equipment "OL_Wire#12_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#12_pole_311032S_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_311032S_200";
+        equipment "OL_Wire#12_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#12_pole_311032S";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#12_pole_311032S_ND_OL_Wire#12_pole_311032S";
+        equipment "OL_Wire#12_pole_311032S";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_312148E_ND_OL_Wire#12_pole_311032S";
+        equipment "OL_Wire#6_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_312148E_100";
+        equipment "OL_Wire#6_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#6_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_312148E_200";
+        equipment "OL_Wire#6_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#6_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#6_pole_312148E_ND_OL_Wire#6_pole_312148E";
+        equipment "OL_Wire#6_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_312148E_ND_OL_Wire#6_pole_312148E";
+        equipment "OL_Wire#5_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_312148E_100";
+        equipment "OL_Wire#5_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#5_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_312148E_200";
+        equipment "OL_Wire#5_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#5_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#5_pole_312148E_ND_OL_Wire#5_pole_312148E";
+        equipment "OL_Wire#5_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_312148E_ND_OL_Wire#5_pole_312148E";
+        equipment "OL_Wire#4_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_312148E_100";
+        equipment "OL_Wire#4_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#4_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_312148E_200";
+        equipment "OL_Wire#4_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#4_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#4_pole_312148E_ND_OL_Wire#4_pole_312148E";
+        equipment "OL_Wire#4_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_312148E_ND_OL_Wire#4_pole_312148E";
+        equipment "OL_Wire#3_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_312148E_100";
+        equipment "OL_Wire#3_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#3_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_312148E_200";
+        equipment "OL_Wire#3_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#3_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#3_pole_312148E_ND_OL_Wire#3_pole_312148E";
+        equipment "OL_Wire#3_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_312148E_ND_OL_Wire#3_pole_312148E";
+        equipment "OL_Wire#2_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_312148E_100";
+        equipment "OL_Wire#2_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#2_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_312148E_200";
+        equipment "OL_Wire#2_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_ND_OL_Wire#2_pole_312148E";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#2_pole_312148E_ND_OL_Wire#2_pole_312148E";
+        equipment "OL_Wire#2_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_312148E_ND_OL_Wire#2_pole_312148E";
+        equipment "OL_Wire#1_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_312148E_100";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_312148E_100";
+        equipment "OL_Wire#1_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
+object pole
+{
+    name "pole_OL_Wire#1_pole_312148E_200";
+    configuration "WOOD-EC-45/4";
+    weather "forecast";
+    install_year "2000";
+    tilt_angle "0 deg";
+    tilt_direction "0 deg";
+    object pole_mount
+    {
+        name "mount_OL_Wire#1_pole_312148E_200";
+        equipment "OL_Wire#1_pole_312148E";
+        pole_spacing "100.0 ft";
+        height "40 ft";
+        offset "0 ft";
+        area "0 sf";
+        direction "0 deg";
+        weight "0 lb";
+    };
+}
